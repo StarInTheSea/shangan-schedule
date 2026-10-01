@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#eee8db" />
+    <meta
+      name="description"
+      content="国考、省考、独立市考与选调生官方招录时间表。"
+    />
+    <title>上岸时间表｜官方考公招录日程</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#schedule">跳到时间表</a>
+    <div class="paper-noise" aria-hidden="true"></div>
+
+    <header class="masthead">
+      <div class="masthead__eyebrow">
+        <span>SHANGAN SCHEDULE</span>
+        <span id="last-checked">资料核查中</span>
+      </div>
+      <div class="masthead__title-row">
+        <div>
+          <p class="kicker">全国公务员招录 · 官方信息索引</p>
+          <h1>上岸<br /><span>时间表</span></h1>
+        </div>
+        <div class="seal" aria-label="只认官方来源">
+          <span>官</span>
+          <span>方</span>
+        </div>
+      </div>
+      <p class="masthead__intro">
+        把分散在各地官网的报名、缴费、准考证、笔试与成绩时间，整理成一张可核验的路线图。
+      </p>
+    </header>
+
+    <main id="schedule" class="shell" tabindex="-1">
+      <section class="coverage-panel" aria-labelledby="coverage-heading">
+        <div>
+          <p class="section-label">COVERAGE / 覆盖状态</p>
+          <h2 id="coverage-heading">已核实 <strong id="coverage-count">—</strong></h2>
+        </div>
+        <div class="coverage-meter" aria-hidden="true">
+          <span id="coverage-meter-fill"></span>
+        </div>
+        <div class="coverage-legend" id="coverage-legend"></div>
+      </section>
+
+      <section class="refresh-panel" aria-labelledby="refresh-heading">
+        <div>
+          <p class="section-label">REFRESH / 手动拉取</p>
+          <h2 id="refresh-heading">公告随时可能更新</h2>
+          <p id="refresh-context">
+            请及时让支持 Skill 的 Agent 再次扫描官方白名单，先查看候选差异，再决定是否发布。
+          </p>
+        </div>
+        <button id="copy-update-prompt" type="button">复制更新提示词</button>
+        <p id="copy-status" class="copy-status" aria-live="polite"></p>
+      </section>
+
+      <section class="control-deck" aria-label="筛选时间表">
+        <div class="view-switcher" role="tablist" aria-label="查看方式">
+          <button class="view-button is-active" id="timeline-tab" role="tab" aria-selected="true" data-view="timeline">
+            时间线
+          </button>
+          <button class="view-button" id="calendar-tab" role="tab" aria-selected="false" data-view="calendar">
+            月历
+          </button>
+        </div>
+
+        <div class="filters">
+          <label>
+            <span>招录年度</span>
+            <select id="year-filter"></select>
+          </label>
+          <label>
+            <span>考试类型</span>
+            <select id="type-filter">
+              <option value="all">全部类型</option>
+              <option value="national">国考</option>
+              <option value="provincial">省考</option>
+              <option value="municipal">独立市考</option>
+              <option value="selected_graduate">选调生</option>
+            </select>
+          </label>
+          <label>
+            <span>地区</span>
+            <select id="region-filter"><option value="all">全国地区</option></select>
+          </label>
+          <label>
+            <span>阶段</span>
+            <select id="stage-filter">
+              <option value="all">全部阶段</option>
+              <option value="announcement">公告</option>
+              <option value="registration">报名</option>
+              <option value="qualification">资格审查</option>
+              <option value="payment">缴费确认</option>
+              <option value="admit_card">准考证</option>
+              <option value="written_exam">笔试</option>
+              <option value="score">成绩查询</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <div class="result-summary" aria-live="polite">
+        <p id="result-count">正在读取日程…</p>
+        <button id="reset-filters" type="button">清除筛选</button>
+      </div>
+
+      <section id="timeline-view" class="timeline-view" aria-labelledby="timeline-tab"></section>
+
+      <section id="calendar-view" class="calendar-view" aria-labelledby="calendar-tab" hidden>
+        <div class="calendar-nav">
+          <button id="previous-month" type="button" aria-label="上个月">←</button>
+          <h2 id="calendar-month"></h2>
+          <button id="next-month" type="button" aria-label="下个月">→</button>
+        </div>
+        <div class="weekday-row" aria-hidden="true">
+          <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+        </div>
+        <div id="calendar-grid" class="calendar-grid"></div>
+      </section>
+
+      <section id="empty-state" class="empty-state" hidden>
+        <p class="section-label">NO MATCH / 暂无匹配</p>
+        <h2>这一组筛选还没有已核实日程。</h2>
+        <p>试试扩大地区或阶段范围；“未发现”不代表当地没有招录。</p>
+      </section>
+
+      <aside class="source-note">
+        <span aria-hidden="true">※</span>
+        <p>
+          本站是官方公告索引，不是招录机关。日期可能调整，请在操作前点击对应事件，复核最新官方通知。
+          页面不会自动联网；需要最新状态时，请复制上方提示词交给任意支持本 Skill 的 Agent 执行更新。
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>上岸时间表 · 数据有出处，变更有记录</p>
+      <p>所有日期按北京时间显示</p>
+    </footer>
+
+    <script id="schedule-data" type="application/json">__SHANGAN_DATA__</script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

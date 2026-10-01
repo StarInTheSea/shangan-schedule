@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "authorities": [
+    {
+      "id": "national-civil-service",
+      "name": "国家公务员局",
+      "region_code": "CN",
+      "allowed_hosts": ["bm.scs.gov.cn", "scs.gov.cn", "beijing.gov.cn"],
+      "entry_urls": ["https://bm.scs.gov.cn/kl2026"]
+    }
+  ]
+}

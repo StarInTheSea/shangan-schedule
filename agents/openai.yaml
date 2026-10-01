@@ -1,0 +1,8 @@
+interface:
+  display_name: "上岸时间表"
+  short_description: "从官方公告采集并审核全国考公招录时间表"
+  brand_color: "#B84532"
+  default_prompt: "Use $shangan-schedule to scan official sources for the 2027 nationwide selected-graduate schedule, show candidate differences, and wait for approval before promotion."
+
+policy:
+  allow_implicit_invocation: true

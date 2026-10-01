@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-12T09:56:53+08:00",
+  "authorities": [
+    {
+      "id": "national-civil-service",
+      "name": "国家公务员局",
+      "region_code": "CN",
+      "region_name": "全国",
+      "allowed_hosts": ["scs.gov.cn", "beijing.gov.cn"],
+      "entry_urls": ["https://bm.scs.gov.cn/kl2026"]
+    },
+    {
+      "id": "beijing-civil-service",
+      "name": "北京市公务员局",
+      "region_code": "110000",
+      "region_name": "北京",
+      "allowed_hosts": ["beijing.gov.cn", "bjdj.gov.cn"],
+      "entry_urls": ["https://www.beijing.gov.cn/gongkai/rsxx/gwyzk/"]
+    },
+    {
+      "id": "tianjin-civil-service",
+      "name": "天津市公务员局",
+      "region_code": "120000",
+      "region_name": "天津",
+      "allowed_hosts": ["tj.gov.cn", "hrss.tj.gov.cn"],
+      "entry_urls": ["https://www.tj.gov.cn/zwgk/zfxxgkzl/fdzdgknr/zkly/"]
+    },
+    {
+      "id": "hebei-civil-service",
+      "name": "河北省公务员局",
+      "region_code": "130000",
+      "region_name": "河北",
+      "allowed_hosts": ["hebpta.com.cn", "hebei.gov.cn", "chengde.gov.cn", "bsu.edu.cn"],
+      "entry_urls": ["https://www.hebpta.com.cn/"]
+    },
+    {
+      "id": "shanxi-civil-service",
+      "name": "山西省公务员局",
+      "region_code": "140000",
+      "region_name": "山西",
+      "allowed_hosts": ["shanxi.gov.cn", "sxdygbjy.gov.cn"],
+      "entry_urls": ["https://rst.shanxi.gov.cn/rsks/"]
+    },
+    {
+      "id": "inner-mongolia-civil-service",
+      "name": "内蒙古自治区公务员局",
+      "region_code": "150000",
+      "region_name": "内蒙古",
+      "allowed_hosts": ["impta.com.cn", "nmg.gov.cn"],
+      "entry_urls": ["https://www.impta.com.cn/"]
+    },
+    {
+      "id": "liaoning-civil-service",
+      "name": "辽宁省公务员局",
+      "region_code": "210000",
+      "region_name": "辽宁",
+      "allowed_hosts": ["ln.gov.cn", "lnrsks.com", "sysksy.cn"],
+      "entry_urls": ["https://www.ln.gov.cn/web/ywdt/jrln/"]
+    },
+    {
+      "id": "jilin-civil-service",
+      "name": "吉林省公务员局",
+      "region_code": "220000",
+      "region_name": "吉林",
+      "allowed_hosts": ["jl.gov.cn", "jlgwyks.cn", "jlu.edu.cn"],
+      "entry_urls": ["http://www.jlgwyks.cn/"]
+    },
+    {
+      "id": "heilongjiang-civil-service",
+      "name": "黑龙江省公务员局",
+      "region_code": "230000",
+      "region_name": "黑龙江",
+      "allowed_hosts": ["hljsgwy.org.cn", "hlj.gov.cn"],
+      "entry_urls": ["https://www.hljsgwy.org.cn/tyzpwb/website/init.htm"]
+    },
+    {
+      "id": "shanghai-civil-service",
+      "name": "上海市公务员局",
+      "region_code": "310000",
+      "region_name": "上海",
+      "allowed_hosts": ["shacs.gov.cn", "shanghai.gov.cn", "sh.gov.cn", "ecnu.edu.cn"],
+      "entry_urls": ["https://bm.shacs.gov.cn/zlxt"]
+    },
+    {
+      "id": "jiangsu-civil-service",
+      "name": "江苏省公务员局",
+      "region_code": "320000",
+      "region_name": "江苏",
+      "allowed_hosts": ["jsxf.gov.cn", "jiangsu.gov.cn"],
+      "entry_urls": ["https://jshrss.jiangsu.gov.cn/col/col92911/index.html"]
+    },
+    {
+      "id": "zhejiang-civil-service",
+      "name": "浙江省公务员局",
+      "region_code": "330000",
+      "region_name": "浙江",
+      "allowed_hosts": ["zjks.gov.cn", "zj.gov.cn", "huzhou.gov.cn", "ecnu.edu.cn"],
+      "entry_urls": ["https://gwy.zjks.gov.cn/"]
+    },
+    {
+      "id": "anhui-civil-service",
+      "name": "安徽省公务员局",
+      "region_code": "340000",
+      "region_name": "安徽",
+      "allowed_hosts": ["ahjgbzw.gov.cn", "apta.gov.cn", "ah.gov.cn"],
+      "entry_urls": ["https://www.apta.gov.cn/"]
+    },
+    {
+      "id": "fujian-civil-service",
+      "name": "福建省公务员局",
+      "region_code": "350000",
+      "region_name": "福建",
+      "allowed_hosts": ["fujian.gov.cn", "fzu.edu.cn"],
+      "entry_urls": ["https://gwykl.fujian.gov.cn/portal"]
+    },
+    {
+      "id": "jiangxi-civil-service",
+      "name": "江西省公务员局",
+      "region_code": "360000",
+      "region_name": "江西",
+      "allowed_hosts": ["jxpta.com", "jx.gov.cn", "jxfz.gov.cn", "jxzzb.gov.cn", "uibe.edu.cn"],
+      "entry_urls": ["https://www.jxpta.com/", "https://rc.jxzzb.gov.cn/trained_cadre_pc/#/login"]
+    },
+    {
+      "id": "shandong-civil-service",
+      "name": "山东省公务员局",
+      "region_code": "370000",
+      "region_name": "山东",
+      "allowed_hosts": ["dtdjzx.gov.cn", "sdrsks.org.cn", "shandong.gov.cn", "uibe.edu.cn"],
+      "entry_urls": ["https://www.dtdjzx.gov.cn/"]
+    },
+    {
+      "id": "henan-civil-service",
+      "name": "河南省公务员局",
+      "region_code": "410000",
+      "region_name": "河南",
+      "allowed_hosts": ["hnrsks.com", "henan.gov.cn"],
+      "entry_urls": ["https://www.hnrsks.com/"]
+    },
+    {
+      "id": "hubei-civil-service",
+      "name": "湖北省公务员局",
+      "region_code": "420000",
+      "region_name": "湖北",
+      "allowed_hosts": ["hubei.gov.cn", "hbjcqz.gov.cn", "job.sdu.edu.cn"],
+      "entry_urls": ["https://rst.hubei.gov.cn/hbrsksw/zlplks/jglyks/hbsgwyks/index.shtml"]
+    },
+    {
+      "id": "hunan-civil-service",
+      "name": "湖南省公务员局",
+      "region_code": "430000",
+      "region_name": "湖南",
+      "allowed_hosts": ["hunan.gov.cn", "hnredstar.gov.cn", "hxw.gov.cn"],
+      "entry_urls": ["https://rst.hunan.gov.cn/rst/hnrsksw/c103125/2026gwy/rskswlist.html"]
+    },
+    {
+      "id": "guangdong-civil-service",
+      "name": "广东省公务员局",
+      "region_code": "440000",
+      "region_name": "广东",
+      "allowed_hosts": ["gdzz.gov.cn", "gd.gov.cn"],
+      "entry_urls": ["https://www.gdzz.gov.cn/tzgg/"]
+    },
+    {
+      "id": "guangxi-civil-service",
+      "name": "广西壮族自治区公务员局",
+      "region_code": "450000",
+      "region_name": "广西",
+      "allowed_hosts": ["gxzf.gov.cn", "gxpta.com.cn", "gxxf.gov.cn", "ecnu.edu.cn"],
+      "entry_urls": ["https://www.gxpta.com.cn/"]
+    },
+    {
+      "id": "hainan-civil-service",
+      "name": "海南省公务员局",
+      "region_code": "460000",
+      "region_name": "海南",
+      "allowed_hosts": ["hainan.gov.cn", "nanhaixf.gov.cn"],
+      "entry_urls": ["https://ea.hainan.gov.cn/ywdt/gwyks/"]
+    },
+    {
+      "id": "chongqing-civil-service",
+      "name": "重庆市公务员局",
+      "region_code": "500000",
+      "region_name": "重庆",
+      "allowed_hosts": ["12371.gov.cn", "cq.gov.cn"],
+      "entry_urls": ["https://rlsbj.cq.gov.cn/ywzl/rsks/gwyks/"]
+    },
+    {
+      "id": "sichuan-civil-service",
+      "name": "四川省公务员局",
+      "region_code": "510000",
+      "region_name": "四川",
+      "allowed_hosts": ["scpta.com.cn", "sc.gov.cn", "gcdr.gov.cn"],
+      "entry_urls": ["https://www.scpta.com.cn/"]
+    },
+    {
+      "id": "guizhou-civil-service",
+      "name": "贵州省公务员局",
+      "region_code": "520000",
+      "region_name": "贵州",
+      "allowed_hosts": ["gzzzb.gov.cn", "gzrsks.com.cn", "guizhou.gov.cn", "qgsydw.com", "uibe.edu.cn"],
+      "entry_urls": ["https://www.gzrsks.com.cn/"]
+    },
+    {
+      "id": "yunnan-civil-service",
+      "name": "云南省公务员局",
+      "region_code": "530000",
+      "region_name": "云南",
+      "allowed_hosts": ["yn.gov.cn", "1237125.cn", "ynylxf.cn", "ecnu.edu.cn"],
+      "entry_urls": ["https://ylxf.1237125.cn/"]
+    },
+    {
+      "id": "tibet-civil-service",
+      "name": "西藏自治区公务员局",
+      "region_code": "540000",
+      "region_name": "西藏",
+      "allowed_hosts": ["xizang.gov.cn"],
+      "entry_urls": ["https://hrss.xizang.gov.cn/xwzx/tzgg/"]
+    },
+    {
+      "id": "shaanxi-civil-service",
+      "name": "陕西省公务员局",
+      "region_code": "610000",
+      "region_name": "陕西",
+      "allowed_hosts": ["sxrsks.cn", "fzsx.gov.cn", "shaanxi.gov.cn", "sxdyjy.cn", "ecnu.edu.cn"],
+      "entry_urls": ["https://www.sxrsks.cn/"]
+    },
+    {
+      "id": "gansu-civil-service",
+      "name": "甘肃省公务员局",
+      "region_code": "620000",
+      "region_name": "甘肃",
+      "allowed_hosts": ["gansu.gov.cn", "gszg.gov.cn"],
+      "entry_urls": ["https://ks.rst.gansu.gov.cn/"]
+    },
+    {
+      "id": "qinghai-civil-service",
+      "name": "青海省公务员局",
+      "region_code": "630000",
+      "region_name": "青海",
+      "allowed_hosts": ["qhjgdj.gov.cn", "qhsdj.gov.cn", "qhpta.com", "qinghai.gov.cn"],
+      "entry_urls": ["https://www.qhpta.com/"]
+    },
+    {
+      "id": "ningxia-civil-service",
+      "name": "宁夏回族自治区公务员局",
+      "region_code": "640000",
+      "region_name": "宁夏",
+      "allowed_hosts": ["nxdjw.gov.cn", "nxpta.com", "ningxia.gov.cn"],
+      "entry_urls": ["https://www.nxdjw.gov.cn/nxdjgsgg/"]
+    },
+    {
+      "id": "xinjiang-civil-service",
+      "name": "新疆维吾尔自治区公务员局",
+      "region_code": "650000",
+      "region_name": "新疆",
+      "allowed_hosts": ["xjkunlun.cn", "xinjiang.gov.cn", "xjrsks.com.cn"],
+      "entry_urls": ["https://rst.xinjiang.gov.cn/xjrst/c112678/zfxxgk_gknrz.shtml"]
+    },
+    {
+      "id": "xpcc-civil-service",
+      "name": "新疆生产建设兵团公务员局",
+      "region_code": "660000",
+      "region_name": "新疆生产建设兵团",
+      "allowed_hosts": ["xjbt.gov.cn"],
+      "entry_urls": ["https://btpta.xjbt.gov.cn/"]
+    }
+  ]
+}

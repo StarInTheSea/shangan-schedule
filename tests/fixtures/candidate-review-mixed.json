@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-27T20:00:00+08:00",
+  "coverage": {"expected": 1, "verified": 1, "pending": 0, "not_found": 0, "checked_at": "2026-08-27T20:10:00+08:00"},
+  "exams": [
+    {
+      "id": "cn-national-2026",
+      "recruitment_year": 2026,
+      "title": "中央机关及其直属机构2026年度考试录用公务员",
+      "exam_type": "national",
+      "region_code": "CN",
+      "region_name": "全国",
+      "events": [
+        {
+          "id": "cn-national-2026-announcement",
+          "stage": "announcement",
+          "label": "招录公告",
+          "start": "2025-10-14",
+          "end": "2025-10-14",
+          "precision": "date",
+          "status": "confirmed",
+          "source": {
+            "authority_id": "national-civil-service",
+            "title": "中央机关及其直属机构2026年度考试录用公务员公告",
+            "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202510/t20251014_4222416.html",
+            "publisher": "国家公务员局",
+            "published_at": "2025-10-14",
+            "retrieved_at": "2026-08-27T20:00:00+08:00",
+            "evidence": "公告于2025年10月14日发布。"
+          },
+          "review": {
+            "status": "approved",
+            "reviewed_at": "2026-08-27T20:10:00+08:00",
+            "reviewed_by": "maintainer",
+            "source_url_verified": true
+          }
+        },
+        {
+          "id": "cn-national-2026-registration",
+          "stage": "registration",
+          "label": "网上报名",
+          "start": "2025-10-15",
+          "end": "2025-10-24",
+          "precision": "date",
+          "status": "confirmed",
+          "source": {
+            "authority_id": "national-civil-service",
+            "title": "中央机关及其直属机构2026年度考试录用公务员公告",
+            "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202510/t20251014_4222416.html",
+            "publisher": "国家公务员局",
+            "published_at": "2025-10-14",
+            "retrieved_at": "2026-08-27T20:00:00+08:00",
+            "evidence": "报名时间为2025年10月15日至10月24日。"
+          },
+          "review": {"status": "candidate"}
+        }
+      ]
+    }
+  ]
+}
